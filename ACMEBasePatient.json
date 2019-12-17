@@ -1,0 +1,138 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "406048b9-3eda-46af-b4a4-8fd99ad69d4a",
+  "meta": {
+    "lastUpdated": "2019-12-03T17:08:43.079+00:00"
+  },
+  "url": "https://fake-acme.org/fhir/StructureDefinition/ACME-base-patient",
+  "name": "ACME Base Patient",
+  "status": "draft",
+  "date": "2019-12-03T17:08:42.9214654+00:00",
+  "fhirVersion": "3.0.1",
+  "mapping": [
+    {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/w5",
+      "name": "W5 Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "loinc",
+      "uri": "http://loinc.org",
+      "name": "LOINC code for the element"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension:race",
+        "path": "Patient.extension",
+        "sliceName": "race"
+      },
+      {
+        "id": "Patient.extension:race.extension:ombCategory",
+        "path": "Patient.extension.extension",
+        "sliceName": "ombCategory"
+      },
+      {
+        "id": "Patient.extension:race.extension:ombCategory.valueCoding:valueCoding",
+        "path": "Patient.extension.extension.valueCoding",
+        "sliceName": "valueCoding"
+      },
+      {
+        "id": "Patient.extension:race.extension:detailed",
+        "path": "Patient.extension.extension",
+        "sliceName": "detailed"
+      },
+      {
+        "id": "Patient.extension:race.extension:detailed.valueCoding:valueCoding",
+        "path": "Patient.extension.extension.valueCoding",
+        "sliceName": "valueCoding"
+      },
+      {
+        "id": "Patient.extension:race.extension:text",
+        "path": "Patient.extension.extension",
+        "sliceName": "text"
+      },
+      {
+        "id": "Patient.extension:race.extension:text.valueString:valueString",
+        "path": "Patient.extension.extension.valueString",
+        "sliceName": "valueString"
+      },
+      {
+        "id": "Patient.extension:ethnicity",
+        "path": "Patient.extension",
+        "sliceName": "ethnicity"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:ombCategory",
+        "path": "Patient.extension.extension",
+        "sliceName": "ombCategory"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:ombCategory.valueCoding:valueCoding",
+        "path": "Patient.extension.extension.valueCoding",
+        "sliceName": "valueCoding"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:detailed",
+        "path": "Patient.extension.extension",
+        "sliceName": "detailed"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:detailed.valueCoding:valueCoding",
+        "path": "Patient.extension.extension.valueCoding",
+        "sliceName": "valueCoding"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:text",
+        "path": "Patient.extension.extension",
+        "sliceName": "text"
+      },
+      {
+        "id": "Patient.extension:ethnicity.extension:text.valueString:valueString",
+        "path": "Patient.extension.extension.valueString",
+        "sliceName": "valueString"
+      },
+      {
+        "id": "Patient.extension:birthsex",
+        "path": "Patient.extension",
+        "sliceName": "birthsex"
+      },
+      {
+        "id": "Patient.extension:birthsex.valueCode:valueCode",
+        "path": "Patient.extension.valueCode",
+        "sliceName": "valueCode"
+      },
+      {
+        "id": "Patient.birthDate",
+        "path": "Patient.birthDate",
+        "min": 1
+      }
+    ]
+  }
+}

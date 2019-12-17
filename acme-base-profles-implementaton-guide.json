@@ -1,0 +1,192 @@
+{
+  "resourceType": "ImplementationGuide",
+  "url": "https://simplifier.net/guide/acme-base-profiles",
+  "version": "1.0.1",
+  "name": "ACME Base Profiles Implementation Guide",
+  "status": "draft",
+  "description": "ACME Base Profiles Implementation Guide",
+  "fhirVersion": "3.0.1",
+  "page": {
+    "title": "ACME Base Profiles Implementation Guide",
+    "page": [
+      {
+        "source": "Home-duplicate-2.md",
+        "title": "Home",
+        "kind": "page",
+        "format": "text/markdown"
+      },
+      {
+        "source": "UseCase.md",
+        "title": "Use Case",
+        "kind": "page",
+        "format": "text/markdown",
+        "page": [
+          {
+            "source": "1..md",
+            "title": "1. Retrieve lab results by care provider",
+            "kind": "page",
+            "format": "text/markdown",
+            "page": [
+              {
+                "source": "Introduction.md",
+                "title": "Introduction",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "Actors.md",
+                "title": "Actors",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "Transactions.md",
+                "title": "Invocations - Request",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "Response-Resonder.md",
+                "title": "Invocations - Response",
+                "kind": "page",
+                "format": "text/markdown"
+              }
+            ]
+          },
+          {
+            "source": "1.Labresultsretrievedbyapatient.md",
+            "title": "2. Retrieve lab results by patient",
+            "kind": "page",
+            "format": "text/markdown"
+          },
+          {
+            "source": "Sendlabresultsbycareprovider.md",
+            "title": "3. Send lab results by care provider",
+            "kind": "page",
+            "format": "text/markdown"
+          }
+        ]
+      },
+      {
+        "source": "StructureDefinitions.md",
+        "title": "Profiles",
+        "kind": "page",
+        "format": "text/markdown",
+        "page": [
+          {
+            "source": "LabObservation.md",
+            "title": "ACMEBaseSmokingStatusObservation",
+            "kind": "page",
+            "format": "text/markdown",
+            "page": [
+              {
+                "source": "Introduction-duplicate-3.md",
+                "title": "Introduction",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "StructureDefinition-duplicate-2.md",
+                "title": "StructureDefinition",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "Validexample.md",
+                "title": "Valid example",
+                "kind": "page",
+                "format": "text/markdown"
+              }
+            ]
+          },
+          {
+            "source": "ACMEBasePatientProfile.md",
+            "title": "ACME Base Patient Profile",
+            "kind": "page",
+            "format": "text/markdown",
+            "page": [
+              {
+                "source": "Introduction-duplicate-4.md",
+                "title": "Introduction",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "StructureDefinition-duplicate-3.md",
+                "title": "StructureDefinition",
+                "kind": "page",
+                "format": "text/markdown"
+              },
+              {
+                "source": "Validexample-duplicate-2.md",
+                "title": "Valid example",
+                "kind": "page",
+                "format": "text/markdown"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Terminology.md",
+        "title": "Terminology",
+        "kind": "page",
+        "format": "text/markdown",
+        "page": [
+          {
+            "source": "ValueSet-.md",
+            "title": "ValueSet - MethodQualifierCodelist",
+            "kind": "page",
+            "format": "text/markdown"
+          }
+        ]
+      },
+      {
+        "source": "SearchParameter.md",
+        "title": "SearchParameters",
+        "kind": "page",
+        "format": "text/markdown",
+        "page": [
+          {
+            "source": "MethodQualifierCode.md",
+            "title": "MethodQualifierCode",
+            "kind": "page",
+            "format": "text/markdown"
+          }
+        ]
+      },
+      {
+        "source": "Conformance.md",
+        "title": "Conformance",
+        "kind": "page",
+        "format": "text/markdown",
+        "page": [
+          {
+            "source": "Server-CapabilityStatement.md",
+            "title": "Server - CapabilityStatement",
+            "kind": "page",
+            "format": "text/markdown"
+          },
+          {
+            "source": "Client-CapabilityStatement.md",
+            "title": "Client - CapabilityStatement",
+            "kind": "page",
+            "format": "text/markdown"
+          }
+        ]
+      },
+      {
+        "source": "About.md",
+        "title": "Security",
+        "kind": "page",
+        "format": "text/markdown"
+      },
+      {
+        "source": "SearchIG.md",
+        "title": "Search IG",
+        "kind": "page",
+        "format": "text/markdown"
+      }
+    ]
+  }
+}
