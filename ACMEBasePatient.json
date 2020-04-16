@@ -2,12 +2,13 @@
   "resourceType": "StructureDefinition",
   "id": "406048b9-3eda-46af-b4a4-8fd99ad69d4a",
   "meta": {
-    "lastUpdated": "2019-12-03T17:08:43.079+00:00"
+    "versionId": "1",
+    "lastUpdated": "2020-02-10T12:52:12.033+00:00"
   },
   "url": "https://fake-acme.org/fhir/StructureDefinition/ACME-base-patient",
   "name": "ACME Base Patient",
   "status": "draft",
-  "date": "2019-12-03T17:08:42.9214654+00:00",
+  "date": "2020-02-10T12:52:13.7094526Z",
   "fhirVersion": "3.0.1",
   "mapping": [
     {

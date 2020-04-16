@@ -2,9 +2,11 @@
   "name": "ACMEBaseProfiles",
   "version": "0.1.0",
   "description": "Put a description here",
+  "author": null,
   "dependencies": {
     "hl7.fhir.us.core": "2.0.0"
   },
+  "fhirVersions": null,
   "devDependencies": null,
   "canonicals": null
 }
